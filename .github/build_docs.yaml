@@ -45,6 +45,10 @@ jobs:
         run: |
           make html
 
+      - name: Print Build Directory
+        run: |
+          ls ./build/html
+
       - name: Folder location sanity check
         run: pwd
       - name: Deploy
