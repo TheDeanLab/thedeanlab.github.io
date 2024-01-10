@@ -2,7 +2,7 @@
 .. _dean-lab-home:
 
 ######################################################
-The Dean Lab at the University of Texas Southwestern
+The Dean Lab at UTSW
 ######################################################
 
 
@@ -15,11 +15,11 @@ The Dean Lab is a multi-disciplinary team of biologists, chemists, physicists, a
 at the University of Texas Southwestern Medical Center in Dallas, Texas. We develop
 advanced microscopy technologies to study cellular signaling processes in
 complex tissue contexts. Our goal is to understand how cells make decisions in the context
-of their native environment, and how these decisions go awry in disease.
+of their native environment, and how these decisions go awry in disease. More information
+about our research can be found on our `website <https://www.dean-lab.org>`_.
 
 **Projects**
 =============
-Our current projects include:
 
 - Light-sheet microscopy software packages for intelligent imaging of complex tissue samples
 
@@ -33,6 +33,7 @@ Our current projects include:
 ================
 
 .. _navigate_repo:
+
 - **navigate** - A Python package for intelligent light-sheet microscopy of complex tissue samples.
     - `GitHub <https://github.com/TheDeanLab/navigate>`_
     - `Documentation <https://thedeanlab.github.io/navigate/>`_
@@ -50,9 +51,3 @@ The **Dean Lab** is supported by the
 `UT Southwestern and University of North Carolina Center for Cell Signaling
 <https://cellularsignaltransduction.org>`_, a Biomedical Technology Development and Dissemination
 Center funded by the NIH National Institute of General Medical Science (RM1GM145399).
-
-.. toctree::
-   :maxdepth: 3
-
-   external_links
-
