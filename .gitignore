@@ -1,2 +1,19 @@
 
 .idea/*
+.ds_store
+!Build/
+
+/.build/
+
+# Module::Build
+build/
+build/html/*
+build
+Build.bat
+
+```
+build/html/*
+*.doctree
+*.js
+*.html
+build/doctrees/_templates/custom_module.doctree
