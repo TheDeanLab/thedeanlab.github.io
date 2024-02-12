@@ -29,7 +29,7 @@ about our research can be found on our `website <https://www.dean-lab.org>`_.
 - Cost-effective, easy-to-assemble, and performant light-sheet microscopes for interrogating live cells,
   expanded, and cleared tissue samples.
 
-**Repositories**
+**Software Repositories**
 ================
 
 .. _navigate_repo:
@@ -44,6 +44,43 @@ about our research can be found on our `website <https://www.dean-lab.org>`_.
 - **navigate_confocal_projection** - A plugin for the **navigate** package that acquires confocal projections
   with light-sheet microscopes.
     - `GitHub <https://github.com/TheDeanLab/navigate-confocal-projection>`_
+
+- **navigate_at_scale** - A plugin for the **navigate** package that enables high-throughput
+    imaging of large tissue samples using robotic delivery of tissues to the microscope.
+    - `GitHub <https://github.com/TheDeanLab/navigate-at-scale>`_
+
+**Educational Resources**
+================
+- **CI2023** - An introduction to continuous integration and continuous deployment for scientific software.
+    - `GitHub <https://github.com/TheDeanLab/CI2023>`_
+
+**Publication Repositories**
+================
+For many manuscripts published over the years, we provide access to CAD files, software, and data
+via GitHub. These repositories are organized by publication year.
+
+- **2015, Dean** - Deconvolution-free subcellular imaging with axially swept light sheet microscopy.
+    - `GitHub <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2015-dean>`_
+- **2016, Dean** - Diagonally scanned light-sheet microscopy for fast volumetric imaging of adherent cells.
+    - `GitHub <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2016-dean>`_
+- **2016, Welf** - Quantitative multiscale cell imaging in controlled 3D microenvironments.
+    - `GitHub <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2016-welf-meSPIM>`_
+- **2019, Chakraborty** - Light-sheet microscopy of cleared tissues with isotropic, subcellular resolution.
+    - `GitHub <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2019-chakraborty>`_
+- **2020, Chang** - Systematic and quantitative comparison of lattice and Gaussian light-sheets.
+    - `GitHub <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2020-chang-systematic-comparison>`_
+- **2020, Sapoznik** - A versatile oblique plane microscope for large-scale and high-resolution imaging of subcellular dynamics.
+    - `GitHub <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2020-sapoznik-oblique-plane-microscopy>`_
+- **2021, Chang** - Real-time multi-angle projection imaging of biological dynamics.
+    - `GitHub <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2021-chang-projection>`_
+- **2022, Dean** - Isotropic imaging across spatial scales with axially swept light-sheet microscopy.
+    - `GitHub <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2021-dean-protocol>`_
+- **2022, Chang** - Resolution doubling in light-sheet microscopy via oblique plane structured illumination.
+    - `GitHub <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2022-chen>`_
+- **2023, Chang** - Projective oblique plane structured illumination microscopy.
+    - `GitHub <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2023-POPSIM>`_
+- **TBD, Isogai** - Direct Arp2/3-vinculin binding is essential for cell spreading, but only on compliant substrates and in 3D.
+    - `GitHub <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2022-isogai>`_
 
 **Funding**
 ============
