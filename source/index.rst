@@ -84,7 +84,12 @@ via GitHub. These repositories are organized by publication year.
 
 **Funding**
 ============
-The **Dean Lab** is supported by the
-`UT Southwestern and University of North Carolina Center for Cell Signaling
+The **Dean Lab** is supported by the following funding sources:
+- `UT Southwestern and University of North Carolina Center for Cell Signaling
 <https://cellularsignaltransduction.org>`_, a Biomedical Technology Development and Dissemination
 Center funded by the NIH National Institute of General Medical Science (RM1GM145399).
+- `Center for Metastatic Tumor Imaging <https://www.metastasis-imaging.org>`_, a
+Cellular Cancer Biology Imaging Research (CCBIR) Center funded by the NIH National Cancer Institute (1U54CA268072).
+- `Simmons Comprehensive Cancer Center <https://www.utsouthwestern.edu/departments/simmons/>`_
+Translational Seed Grant.
+- `UTSW President's Research Council <https://engage.utsouthwestern.edu/pages/membership-giving/membership-giving---presidents-research-council>`_
