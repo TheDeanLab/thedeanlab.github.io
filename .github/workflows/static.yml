@@ -22,45 +22,6 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
-  build:
-    runs-on: ubuntu-latest
-    permission:
-      contents: write
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Setup Python
-        uses: actions/setup-python@v3
-        with:
-          python-version: '3.9.7'
-
-      - name: Upgrade pip
-        run: |
-          python3 -m pip install --upgrade pip
-          
-      - name: Get pip cache dir
-        id: pip-cache
-        run: echo "dir=$(pip cache dir)" >> $GITHUB_OUTPUT
-
-      - name: Cache dependencies
-        uses: actions/cache@v3
-        with:
-          path: ${{ steps.pip-cache.outputs.dir }}
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      - name: Install dependencies
-        run: |
-          pip install -e .[docs]
-
-      - name: Build docs
-        run: |
-          cd docs
-          make html
-  
   deploy:
     environment:
       name: github-pages
