@@ -29,16 +29,6 @@ about our research can be found on our `website <https://www.dean-lab.org>`_.
 - Cost-effective, easy-to-assemble, and performant light-sheet microscopes for interrogating live cells,
   expanded, and cleared tissue samples.
 
-**Software Repositories**
-================
-
-.. _navigate_repo:
-
-- `navigate <https://github.com/TheDeanLab/navigate>`_ - A Python package for intelligent light-sheet microscopy of complex tissue samples.
-- `navigate_plugin_template <https://github.com/TheDeanLab/navigate-plugin-template>`_ - A template repository for creating plugins for the **navigate** package.
-- `navigate_confocal_projection <https://github.com/TheDeanLab/navigate-confocal-projection>`_ - A plugin for the **navigate** package that acquires confocal projections with light-sheet microscopes.
-- `navigate_at_scale <https://github.com/TheDeanLab/navigate-at-scale>`_ - A plugin for the **navigate** package that enables high-throughput imaging of large tissue samples using robotic delivery of tissues to the microscope.
-
 **Educational Resources**
 ================
 - `CI2023 <https://github.com/TheDeanLab/CI2023>`_ - An introduction to continuous integration and continuous deployment for scientific software.
@@ -69,3 +59,14 @@ The **Dean Lab** is supported by the following funding sources:
 - NIH National Cancer Institute (1U54CA268072).
 - `Simmons Comprehensive Cancer Center <https://www.utsouthwestern.edu/departments/simmons/>`_ Translational Seed Grant.
 - `UTSW President's Research Council <https://engage.utsouthwestern.edu/pages/membership-giving/membership-giving---presidents-research-council>`_
+
+.. toctree::
+   :caption: Software
+   :maxdepth: 2
+
+   navigate <https://github.com/TheDeanLab/navigate>
+   navigate Plugin Template <https://github.com/TheDeanLab/navigate-plugin-template>
+   navigate Confocal Projection Plugin <https://github.com/TheDeanLab/navigate-confocal-projection>
+   navigate At Scale <https://github.com/TheDeanLab/navigate-at-scale>
+   navigate MMCore Plugin <https://github.com/TheDeanLab/navigate-mmcore-plugin>
+   navigate ilastik Server <https://github.com/TheDeanLab/navigate-ilastik-server>
