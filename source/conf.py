@@ -1,50 +1,15 @@
-# Configuration file for the Sphinx documentation builder.
-#
-# This file only contains a selection of the most common options. For a full
-# list see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
-
-# -- Path setup --------------------------------------------------------------
-
-# If extensions (or modules to document with autodoc) are in another directory,
-# add these directories to sys.path here. If the directory is relative to the
-# documentation root, use os.path.abspath to make it absolute, like shown here.
-#
-import os
-import sys
-
-#sys.path.insert(0, os.path.abspath("../../src"))
-
+import datetime
 
 # -- Project information -----------------------------------------------------
-
+year = datetime.date.today().year
 project = "The Dean Lab"
-copyright = "2023, Dean Lab, UT Southwestern Medical Center"
+copyright = f"{year}, Dean Lab, UT Southwestern Medical Center"
 author = "Dean Lab, UT Southwestern Medical Center"
 
 
 # -- General configuration ---------------------------------------------------
 
-# Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-# ones.
-# extensions = [
-#     "sphinx.ext.duration",
-#     "sphinx.ext.doctest",
-#     "sphinx.ext.autodoc",
-#     "sphinx.ext.autosummary",
-#     "sphinx.ext.githubpages",
-#     "sphinx.ext.napoleon",
-#     "sphinx.ext.coverage",
-#     "sphinx_toolbox.collapse",
-#     "sphinx.ext.autosectionlabel",
-# ]
-
 autosectionlabel_prefix_document = True
-
-# Boolean indicating whether to scan all found documents for
-# autosummary directives, and to generate stub pages for each
-# (http://sphinx-doc.org/latest/ext/autosummary.html)
 autosummary_generate = False
 
 # Both the class’ and the __init__ method’s docstring are concatenated
@@ -69,9 +34,6 @@ autodoc_default_flags = [
 ]
 
 autodoc_inherit_docstrings = True
-
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ["./_templates"]
 
 # The suffix of source filenames.
 source_suffix = ".rst"
@@ -102,6 +64,6 @@ html_show_sphinx = False
 # so a file named "default.css" will overwrite the builtin "default.css".
 # html_static_path = ["_static"]
 
-html_logo = "dean_lab.png"
+html_logo = "cell.png"
 
 pygments_style = "sphinx"

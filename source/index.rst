@@ -1,15 +1,9 @@
 
 .. _dean-lab-home:
 
-######################################################
+####################
 The Dean Lab at UTSW
-######################################################
-
-
-.. image:: 2024-01-09-LungExpansion2.png
-    :width: 100%
-    :alt: An expanded mouse lung imaged with Axially Swept Light-Sheet Microscopy
-    :align: center
+####################
 
 The Dean Lab is a multi-disciplinary team of biologists, chemists, physicists, and engineers
 at the University of Texas Southwestern Medical Center in Dallas, Texas. We develop
@@ -18,40 +12,36 @@ complex tissue contexts. Our goal is to understand how cells make decisions in t
 of their native environment, and how these decisions go awry in disease. More information
 about our research can be found on our `website <https://www.dean-lab.org>`_.
 
-**Projects**
-=============
+---------------
 
-- Light-sheet microscopy software packages for intelligent imaging of complex tissue samples
+**Research Projects**
+=====================
 
-- Tissue clearing and labeling protocols for high-resolution imaging deep within
-  biological specimens.
+- `navigate <https://thedeanlab.github.io/navigate/>`_ - Light-sheet microscopy software packages for intelligent imaging of complex tissue samples. navigate is equipped with a series of plugins that extend its functionality, enabling the use of `robotics <https://github.com/TheDeanLab/navigate-at-scale>`_, imaging cells in a `projection format <https://github.com/TheDeanLab/navigate-confocal-projection>`_, accessing additional `hardware <https://github.com/TheDeanLab/navigate-mmcore-plugin>`_, and leveraging real-time feedback from `ilastik  <https://github.com/TheDeanLab/navigate-ilastik-server>`_. To enable users to generate their own plugins, we provide a `plugin template <https://github.com/TheDeanLab/navigate-plugin-template>`_.
 
-- Cost-effective, easy-to-assemble, and performant light-sheet microscopes for interrogating live cells,
-  expanded, and cleared tissue samples.
+- `Altair <https://thedeanlab.github.io/altair/>`_ - A series of cost-effective, easy-to-assemble, and performant light-sheet microscopes for interrogating cells and tissues at the highest resolution.
+
+---------------
+
 
 **Educational Resources**
-================
+=========================
+
 - `CI2023 <https://github.com/TheDeanLab/CI2023>`_ - An introduction to continuous integration and continuous deployment for scientific software.
 
+---------------
+
 **Publication Repositories**
-================
+============================
+
 For many manuscripts published over the years, we provide access to CAD files, software, and data
-via GitHub. These repositories are organized by publication year.
+via GitHub. These repositories are organized by publication year. You can find this information :ref:`publications-home`.
 
-- `2015, Dean <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2015-dean>`_ - Deconvolution-free subcellular imaging with axially swept light sheet microscopy.
-- `2016, Dean <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2016-dean>`_ - Diagonally scanned light-sheet microscopy for fast volumetric imaging of adherent cells.
-- `2016, Welf <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2016-welf-meSPIM>`_ - Quantitative multiscale cell imaging in controlled 3D microenvironments.
-- `2019, Chakraborty <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2019-chakraborty>`_ - Light-sheet microscopy of cleared tissues with isotropic, subcellular resolution.
-- `2020, Chang <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2020-chang-systematic-comparison>`_ - Systematic and quantitative comparison of lattice and Gaussian light-sheets.
-- `2020, Sapoznik <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2020-sapoznik-oblique-plane-microscopy>`_ - A versatile oblique plane microscope for large-scale and high-resolution imaging of subcellular dynamics.
-- `2021, Chang <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2021-chang-projection>`_ - Real-time multi-angle projection imaging of biological dynamics.
-- `2022, Dean <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2021-dean-protocol>`_ - Isotropic imaging across spatial scales with axially swept light-sheet microscopy.
-- `2022, Chang <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2022-chen>`_ - Resolution doubling in light-sheet microscopy via oblique plane structured illumination.
-- `2023, Chang <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2023-POPSIM>`_ - Projective oblique plane structured illumination microscopy.
-- `TBD, Isogai <https://github.com/AdvancedImagingUTSW/manuscripts/tree/main/2022-isogai>`_ - Direct Arp2/3-vinculin binding is essential for cell spreading, but only on compliant substrates and in 3D.
+---------------
 
-**Funding**
-============
+
+**Our Supporters**
+==================
 
 The **Dean Lab** is supported by the following funding sources:
 
@@ -61,12 +51,9 @@ The **Dean Lab** is supported by the following funding sources:
 - `UTSW President's Research Council <https://engage.utsouthwestern.edu/pages/membership-giving/membership-giving---presidents-research-council>`_
 
 .. toctree::
-   :caption: Software
+   :caption: Repositories
    :maxdepth: 2
 
-   navigate <https://github.com/TheDeanLab/navigate>
-   navigate Plugin Template <https://github.com/TheDeanLab/navigate-plugin-template>
-   navigate Confocal Projection Plugin <https://github.com/TheDeanLab/navigate-confocal-projection>
-   navigate At Scale <https://github.com/TheDeanLab/navigate-at-scale>
-   navigate MMCore Plugin <https://github.com/TheDeanLab/navigate-mmcore-plugin>
-   navigate ilastik Server <https://github.com/TheDeanLab/navigate-ilastik-server>
+   navigate <https://thedeanlab.github.io/navigate/>
+   altair <https://thedeanlab.github.io/altair/>
+
