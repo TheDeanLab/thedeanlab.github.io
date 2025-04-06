@@ -30,6 +30,5 @@ dependencies = [
 [project.urls]
 Source = "https://thedeanlab.github.io"
 
-
 [tool.setuptools.dynamic]
-version = 1.0
+version = { file = "VERSION.txt" }
