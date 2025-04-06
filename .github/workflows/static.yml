@@ -31,10 +31,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Python 3.9.7
+      - name: Setup Python 3.9
         uses: actions/setup-python@v3
         with:
-          python-version: 3.9.7
+          python-version: 3.9
 
       - name: Install Dependencies
         run: |
