@@ -7,6 +7,7 @@ name = "dean-lab-docs"
 description = "The Dean Lab, UT Southwestern Medical Center."
 authors = [{name = "The Dean Lab, UT Southwestern Medical Center"}]
 readme = "README.md"
+dynamic = ["version"]
 license = {file = "LICENSE.md"}
 classifiers = [
     "Programming Language :: Python :: 3.9",
@@ -26,6 +27,9 @@ dependencies = [
     "sphinx-toolbox"
     ]
 
-
 [project.urls]
-Source = "https://github.com/TheDeanLab/TheDeanLab.github.io"
+Source = "https://thedeanlab.github.io"
+
+
+[tool.setuptools.dynamic]
+version = 1.0
