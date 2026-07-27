@@ -1,3 +1,4 @@
+import runpy
 from pathlib import Path
 
 
@@ -78,12 +79,12 @@ def test_kevin_dean_profile_links_assets_and_structured_data():
 
 def test_kevin_dean_profile_is_linked_and_css_is_enabled():
     index = INDEX.read_text(encoding="utf-8")
-    conf = CONF.read_text(encoding="utf-8")
+    config = runpy.run_path(CONF)
 
     assert ":doc:`Kevin Dean <kevin-dean>`" in index
     assert "kevin-dean" in index
-    assert 'html_static_path = ["_static"]' in conf
-    assert 'html_css_files = ["profile.css"]' in conf
+    assert config["html_static_path"] == ["_static"]
+    assert set(config["html_css_files"]) == {"profile.css", "meetings.css"}
 
 
 def test_index_uses_compact_site_directory_instead_of_wiki_sections():
