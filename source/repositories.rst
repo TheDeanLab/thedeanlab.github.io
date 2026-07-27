@@ -14,6 +14,7 @@ These repositories capture core software and hardware efforts from the lab.
 - `Altair <https://thedeanlab.github.io/altair/>`_ - Cost-effective, easy-to-assemble, and performant light-sheet microscopes.
 - `clearex <https://github.com/TheDeanLab/clearex>`_ - Open-source Dean Lab analysis resources on GitHub.
 - `cyDPNI <https://github.com/TheDeanLab/CyDPNI>`_ - A Python package for analyzing sub-cellular polarization in fluorescence microscopy images.
+- `tiresias <https://github.com/TheDeanLab/tiresias>`_ - GPU-Enabled 3D Blind Deconvolution package for PSF generation. 
 
 .. _publications-home:
 
