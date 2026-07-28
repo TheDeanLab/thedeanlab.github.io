@@ -84,7 +84,11 @@ def test_kevin_dean_profile_is_linked_and_css_is_enabled():
     assert ":doc:`Kevin Dean <kevin-dean>`" in index
     assert "kevin-dean" in index
     assert config["html_static_path"] == ["_static"]
-    assert set(config["html_css_files"]) == {"profile.css", "meetings.css"}
+    assert set(config["html_css_files"]) == {
+        "profile.css",
+        "meetings.css",
+        "publications.css",
+    }
 
 
 def test_index_uses_compact_site_directory_instead_of_wiki_sections():
