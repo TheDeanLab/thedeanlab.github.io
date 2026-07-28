@@ -32,9 +32,9 @@ operation.
 
    .. container:: publication-entry
 
-      **`A versatile oblique plane microscope for large-scale and
+      `A versatile oblique plane microscope for large-scale and
       high-resolution imaging of subcellular dynamics
-      <https://pubmed.ncbi.nlm.nih.gov/33179596/>`__**
+      <https://pubmed.ncbi.nlm.nih.gov/33179596/>`__
 
       .. container:: publication-meta
 
@@ -46,8 +46,8 @@ operation.
 
    .. container:: publication-entry
 
-      **`Navigate: an open-source platform for smart light-sheet microscopy
-      <https://pubmed.ncbi.nlm.nih.gov/39261640/>`__**
+      `Navigate: an open-source platform for smart light-sheet microscopy
+      <https://pubmed.ncbi.nlm.nih.gov/39261640/>`__
 
       .. container:: publication-meta
 
@@ -58,8 +58,8 @@ operation.
 
    .. container:: publication-entry
 
-      **`Mechanically sheared axially swept light-sheet microscopy
-      <https://pubmed.ncbi.nlm.nih.gov/39296406/>`__**
+      `Mechanically sheared axially swept light-sheet microscopy
+      <https://pubmed.ncbi.nlm.nih.gov/39296406/>`__
 
       .. container:: publication-meta
 
@@ -70,8 +70,8 @@ operation.
 
    .. container:: publication-entry
 
-      **`A high-resolution, easy-to-build light-sheet microscope for
-      subcellular imaging <https://pubmed.ncbi.nlm.nih.gov/41642252/>`__**
+      `A high-resolution, easy-to-build light-sheet microscope for
+      subcellular imaging <https://pubmed.ncbi.nlm.nih.gov/41642252/>`__
 
       .. container:: publication-meta
 
@@ -92,8 +92,8 @@ which those measurements matter.
 
    .. container:: publication-entry
 
-      **`Light-sheet microscopy of cleared tissues with isotropic, subcellular
-      resolution <https://pubmed.ncbi.nlm.nih.gov/31673159/>`__**
+      `Light-sheet microscopy of cleared tissues with isotropic, subcellular
+      resolution <https://pubmed.ncbi.nlm.nih.gov/31673159/>`__
 
       .. container:: publication-meta
 
@@ -104,8 +104,8 @@ which those measurements matter.
 
    .. container:: publication-entry
 
-      **`Isotropic imaging across spatial scales with axially swept
-      light-sheet microscopy <https://pubmed.ncbi.nlm.nih.gov/35831614/>`__**
+      `Isotropic imaging across spatial scales with axially swept
+      light-sheet microscopy <https://pubmed.ncbi.nlm.nih.gov/35831614/>`__
 
       .. container:: publication-meta
 
@@ -117,8 +117,8 @@ which those measurements matter.
 
    .. container:: publication-entry
 
-      **`Feature-driven whole-tissue imaging with subcellular resolution
-      <https://pubmed.ncbi.nlm.nih.gov/40902591/>`__**
+      `Feature-driven whole-tissue imaging with subcellular resolution
+      <https://pubmed.ncbi.nlm.nih.gov/40902591/>`__
 
       .. container:: publication-meta
 
@@ -138,9 +138,9 @@ morphology to cell behavior and whole-organ function.
 
    .. container:: publication-entry
 
-      **`Pre-complexation of talin and vinculin without tension is required for
+      `Pre-complexation of talin and vinculin without tension is required for
       efficient nascent adhesion maturation
-      <https://pubmed.ncbi.nlm.nih.gov/33783351/>`__**
+      <https://pubmed.ncbi.nlm.nih.gov/33783351/>`__
 
       .. container:: publication-meta
 
@@ -151,8 +151,8 @@ morphology to cell behavior and whole-organ function.
 
    .. container:: publication-entry
 
-      **`Blebs promote cell survival by assembling oncogenic signalling hubs
-      <https://pubmed.ncbi.nlm.nih.gov/36859545/>`__**
+      `Blebs promote cell survival by assembling oncogenic signalling hubs
+      <https://pubmed.ncbi.nlm.nih.gov/36859545/>`__
 
       .. container:: publication-meta
 
@@ -163,8 +163,8 @@ morphology to cell behavior and whole-organ function.
 
    .. container:: publication-entry
 
-      **`An epithelial morphogenetic program for maximal urine concentration
-      <https://pubmed.ncbi.nlm.nih.gov/41862496/>`__**
+      `An epithelial morphogenetic program for maximal urine concentration
+      <https://pubmed.ncbi.nlm.nih.gov/41862496/>`__
 
       .. container:: publication-meta
 

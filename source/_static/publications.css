@@ -60,6 +60,10 @@
   margin-bottom: 0.25rem;
 }
 
+.publication-entry > p:first-child a {
+  font-weight: 700;
+}
+
 .publication-entry .publication-meta {
   color: #526675;
   font-size: 0.94rem;
