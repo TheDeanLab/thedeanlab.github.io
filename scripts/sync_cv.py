@@ -9,6 +9,7 @@ import tempfile
 import time
 import urllib.request
 from collections.abc import Callable, Sequence
+from http.client import IncompleteRead
 from pathlib import Path
 from urllib.error import URLError
 
@@ -70,7 +71,7 @@ def sync_cv(
                 _validate_pdf(temporary_path)
                 os.replace(temporary_path, destination)
                 return
-            except (URLError, TimeoutError, OSError) as error:
+            except (IncompleteRead, URLError, TimeoutError, OSError) as error:
                 if attempt + 1 == retries:
                     raise RuntimeError(
                         f"Unable to synchronize CV after {retries} attempts"

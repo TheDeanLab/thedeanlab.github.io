@@ -1,3 +1,4 @@
+from http.client import IncompleteRead
 from io import BytesIO
 from urllib.error import URLError
 
@@ -84,3 +85,35 @@ def test_sync_cv_retries_transient_network_errors(tmp_path, monkeypatch):
     assert attempts == 3
     assert delays == [1.0, 2.0]
     assert destination.read_bytes() == b"%PDF-1.7\nretried cv"
+
+
+def test_sync_cv_retries_incomplete_response_body(tmp_path, monkeypatch):
+    destination = tmp_path / "kevin-dean-cv.pdf"
+    destination.write_bytes(b"%PDF-existing")
+    attempts = 0
+    delays = []
+
+    class IncompleteResponse(Response):
+        def read(self, size=-1):
+            raise IncompleteRead(b"%PDF-partial", 100)
+
+    def fake_urlopen(request, timeout):
+        nonlocal attempts
+        attempts += 1
+        if attempts == 1:
+            return IncompleteResponse()
+        return Response(b"%PDF-1.7\nretried cv")
+
+    monkeypatch.setattr(sync_cv.urllib.request, "urlopen", fake_urlopen)
+
+    sync_cv.sync_cv(
+        "https://example.test/cv.pdf",
+        destination,
+        retries=2,
+        sleep=delays.append,
+    )
+
+    assert attempts == 2
+    assert delays == [1.0]
+    assert destination.read_bytes() == b"%PDF-1.7\nretried cv"
+    assert list(tmp_path.glob(".kevin-dean-cv.pdf.*.tmp")) == []
