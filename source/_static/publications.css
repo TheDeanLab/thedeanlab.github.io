@@ -14,7 +14,7 @@
 }
 
 .publication-record-summary {
-  border-bottom: 1px solid #d9e2ec;
+  border-bottom: 1px solid #7b8e9a;
   margin-bottom: 1.8rem;
   padding-bottom: 1.25rem;
 }
@@ -32,7 +32,7 @@
 
 .publication-record-links a {
   background: #ffffff;
-  border: 1px solid #c9d6e2;
+  border: 1px solid #7b8e9a;
   border-radius: 4px;
   color: #24527a;
   display: inline-block;
@@ -40,12 +40,18 @@
   padding: 0.38rem 0.58rem;
 }
 
+.publication-record-links a:focus-visible,
+.publication-entry a:focus-visible {
+  outline: 2px solid #24527a;
+  outline-offset: 2px;
+}
+
 .publication-list {
   margin: 0.8rem 0 2rem;
 }
 
 .publication-entry {
-  border-top: 1px solid #d9e2ec;
+  border-top: 1px solid #7b8e9a;
   padding: 1rem 0;
 }
 
@@ -76,7 +82,7 @@
 
 .publication-record-inset {
   background: #f7f9fb;
-  border: 1px solid #d9e2ec;
+  border: 1px solid #7b8e9a;
   border-radius: 6px;
   margin: 2rem 0 1rem;
   padding: 1.1rem 1.2rem;
