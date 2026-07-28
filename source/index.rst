@@ -33,7 +33,7 @@ Explore the site through the public resources below.
    repositories
    kevin-dean
    teaching
-   publications
+   Publications <publications>
    resources
 
 ---------------
