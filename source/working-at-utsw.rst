@@ -55,6 +55,7 @@ VPN and Remote Access
 - If you need remote access, set up the UTSW VPN while you are on campus if possible.
 - Limited intranet access is also available through the
   `Citrix Gateway <https://citrixgateway.utsouthwestern.edu/vpn/index.html>`_.
+- BioHPC and Astrocyte remote workflows are covered in :doc:`cloud-usage`.
 
 Equipment Surplus and Decontamination
 -------------------------------------

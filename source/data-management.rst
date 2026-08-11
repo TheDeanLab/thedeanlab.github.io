@@ -12,6 +12,7 @@ Data Storage
   `BioHPC account registration <https://portal.biohpc.swmed.edu/accounts/register/>`_.
 - BioHPC access is a standard requirement for working in the lab, and new users
   are typically directed to an orientation or training session during setup.
+  See :doc:`cloud-usage` if this information has not yet been provided.
 - The primary archive location for lab data is ``/archive``.
 - Organize data routinely and remove material that no longer needs to be kept;
   storage has a real operational cost.
@@ -62,6 +63,7 @@ Brightness and contrast
 Related pages
 -------------
 
+- :doc:`cloud-usage` for BioHPC access, Astrocyte uploads, and compute resource expectations
 - :doc:`digital-tools` for account and platform setup
 - :doc:`figure-preparation` for manuscript-ready figure formatting expectations
 - :doc:`policies` for lab expectations that intersect with record keeping

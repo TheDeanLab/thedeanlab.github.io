@@ -19,6 +19,7 @@ Overview
 - :doc:`meetings` for recurring meetings, attendance expectations, and presentation formats.
 - :doc:`digital-tools` for email, Slack, Outlook, GitHub, LabArchives, and BioHPC.
 - :doc:`working-at-utsw` for institution-facing logistics such as HR, IR, VPN, shipping, and travel.
+- :doc:`cloud-usage` for BioHPC, Astrocyte, remote access, data staging, and compute resource expectations.
 - :doc:`data-management` for storage expectations and microscopy image best practices.
 - :doc:`figure-preparation` for manuscript-ready figure expectations and formatting standards.
 - :doc:`protocols` for standard operating procedures and shared workflows.
@@ -33,6 +34,7 @@ Overview
    meetings
    digital-tools
    working-at-utsw
+   cloud-usage
    data-management
    figure-preparation
    equipment

@@ -23,7 +23,7 @@ Explore the site through the public resources below.
       Recent work and publication resources.
 
    :doc:`Lab Resources <resources>`
-      Onboarding, policies, protocols, equipment, and data management.
+      Onboarding, policies, protocols, equipment, cloud usage, and data management.
 
 .. toctree::
    :caption: Contents

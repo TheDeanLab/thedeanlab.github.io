@@ -11,6 +11,8 @@ Before Your Last Day
 - Make sure protocols and key procedures are documented in the appropriate shared system.
 - Organize published data in ``/archive/MIL/publications/`` using a clear project
   naming scheme that others can navigate later.
+- Confirm BioHPC and Astrocyte project materials follow :doc:`cloud-usage`
+  expectations before handing off cloud-based workflows.
 - Remove personal information from lab-managed computers and return any
   lab-owned devices that were assigned to you.
 - Return keys, badges, laptops, and other UTSW property as instructed.

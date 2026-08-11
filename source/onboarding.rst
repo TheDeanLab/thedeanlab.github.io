@@ -34,7 +34,9 @@ Computing and records
 - LabArchives is used for digital lab notebooks and shared lab information.
 - BioHPC is the primary storage and compute environment for lab data.
 
-See :doc:`digital-tools` for the operational details of these systems.
+See :doc:`digital-tools` for the operational details of these systems and
+:doc:`cloud-usage` for BioHPC training, VPN access, Astrocyte, and compute
+resource expectations.
 
 Contacts
 --------
@@ -103,4 +105,5 @@ Quick reference
 - Department IT: Hector.EncarnacionPetersen@UTSouthwestern.edu
 - Badge access: BadgeAccessControl@UTSouthwestern.edu
 - Core lab systems: see :doc:`digital-tools`
+- BioHPC, Astrocyte, and remote compute: see :doc:`cloud-usage`
 - Institutional logistics: see :doc:`working-at-utsw`

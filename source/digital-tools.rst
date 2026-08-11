@@ -62,10 +62,21 @@ BioHPC
 - Register during onboarding and make sure you understand the storage structure
   used by your projects.
 - See :doc:`data-management` for storage expectations.
+- See :doc:`cloud-usage` for access, remote login, Astrocyte, and compute usage expectations.
+
+Astrocyte
+---------
+
+- Astrocyte is one of the channels offered by the lab for data analysis.
+- An existing BioHPC account is required for Astrocyte access. Login and
+  registration are the same as your BioHPC credentials.
+- See :doc:`data-management` for storage expectations.
+- See :doc:`cloud-usage` for project setup, upload options, provided workflows, and resource management.
 
 Related Pages
 -------------
 
 - :doc:`onboarding`
+- :doc:`cloud-usage`
 - :doc:`data-management`
 - :doc:`working-at-utsw`
