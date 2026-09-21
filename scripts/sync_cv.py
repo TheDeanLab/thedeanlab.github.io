@@ -15,7 +15,7 @@ from urllib.error import URLError
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SOURCE_URL = (
-    "https://raw.githubusercontent.com/AdvancedImagingUTSW/CV/main/kevin_dean_cv.pdf"
+    "https://raw.githubusercontent.com/kevin-m-dean/CV/main/kevin_dean_cv.pdf"
 )
 DEFAULT_DESTINATION = REPOSITORY_ROOT / "source" / "_static" / "kevin-dean-cv.pdf"
 PDF_SIGNATURE = b"%PDF-"
