@@ -13,7 +13,7 @@ def test_kevin_dean_profile_contains_canonical_public_identity():
 
     required = [
         "Kevin M. Dean, Ph.D.",
-        "I build open-source, adaptive light-sheet microscopes and image-analysis workflows to reveal rare metastatic colonization events in intact tissues.",
+        "Kevin M. Dean is incoming Founding Head of Integrated Imaging Systems at MindSpan, starting November 1, 2026.",
         "Kevin M. Dean develops open-source adaptive microscopy and image-analysis workflows that reveal rare metastatic colonization events in intact tissues and broaden access to advanced imaging.",
         "Assistant Professor",
         "Lyda Hill Department of Bioinformatics",
@@ -64,7 +64,7 @@ def test_kevin_dean_profile_links_assets_and_structured_data():
         "https://scholar.google.com/citations?user=Uv0B5xIAAAAJ&hl=en",
         "https://orcid.org/0000-0003-0839-2320",
         "https://github.com/thedeanlab/",
-        "https://github.com/AdvancedImagingUTSW",
+        "https://github.com/kevin-m-dean",
         "https://www.linkedin.com/in/kevin-m-dean/",
         "https://bsky.app/profile/kevin-dean.bsky.social",
         "https://profiles.utsouthwestern.edu/profile/155475/kevin-dean.html",

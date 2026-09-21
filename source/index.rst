@@ -6,6 +6,10 @@ The Dean Lab at UTSW
 
 The Dean Lab is a multi-disciplinary team of biologists, chemists, physicists, and engineers at the University of Texas Southwestern Medical Center in Dallas, Texas. We develop advanced microscopy technologies to study cellular signaling processes in complex tissue contexts. Our goal is to understand how cells make decisions in the context of their native environment, and how these decisions go awry in disease. We aim to develop and apply cutting-edge microscopy instrumentation and analyses to gain insight into otherwise intractable biological problems, while making these technological advances broadly available through community initiatives at UTSW and across the State of Texas. Ultimately, we strive to generate a collaborative ecosystem in which advances in microscopy inspire new biological questions, which in turn drive the development of new and biologically motivated imaging techniques. More information about our research can be found on our `website <https://www.dean-lab.org>`_.
 
+.. note::
+
+   Kevin Dean will join MindSpan as Founding Head of Integrated Imaging Systems on November 1, 2026, while retaining a partial appointment as Assistant Professor at UT Southwestern Medical Center. Read more on :doc:`his personal page <kevin-dean>`.
+
 Explore the site through the public resources below.
 
 .. container:: site-directory

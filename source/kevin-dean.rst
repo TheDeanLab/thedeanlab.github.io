@@ -5,7 +5,7 @@ Kevin M. Dean, Ph.D.
 #######################
 
 .. meta::
-   :description: I build open-source, adaptive light-sheet microscopes and image-analysis workflows to reveal rare metastatic colonization events in intact tissues.
+   :description: Kevin M. Dean is incoming Founding Head of Integrated Imaging Systems at MindSpan, starting November 1, 2026. He will retain a partial appointment as Assistant Professor at UT Southwestern.
 
 .. container:: profile-hero
 
@@ -17,7 +17,7 @@ Kevin M. Dean, Ph.D.
 
       .. rst-class:: profile-meta
 
-      Assistant Professor, Lyda Hill Department of Bioinformatics, UT Southwestern Medical Center. Executive Director, Cancer Cell Imaging Core.
+      Incoming Founding Head of Integrated Imaging Systems, MindSpan (November 1, 2026). Assistant Professor, UT Southwestern Medical Center.
 
       .. rst-class:: profile-one-liner
 
@@ -25,16 +25,19 @@ Kevin M. Dean, Ph.D.
 
       .. container:: profile-links
 
-         `CV <_static/kevin-dean-cv.pdf>`__ `Google Scholar <https://scholar.google.com/citations?user=Uv0B5xIAAAAJ&hl=en>`__ `ORCID <https://orcid.org/0000-0003-0839-2320>`__ `GitHub <https://github.com/thedeanlab/>`__ `UTSW <https://profiles.utsouthwestern.edu/profile/155475/kevin-dean.html>`__
+         `CV <_static/kevin-dean-cv.pdf>`__ `Google Scholar <https://scholar.google.com/citations?user=Uv0B5xIAAAAJ&hl=en>`__ `ORCID <https://orcid.org/0000-0003-0839-2320>`__ `GitHub <https://github.com/kevin-m-dean>`__ `UTSW <https://profiles.utsouthwestern.edu/profile/155475/kevin-dean.html>`__
 
-Kevin M. Dean is an Assistant Professor in the Lyda Hill Department of Bioinformatics at UT Southwestern Medical Center and Executive Director of the Cancer Cell Imaging Core. His lab builds open-source, adaptive light-sheet microscopes, molecular multiplexing methods, and image-analysis workflows that make rare metastatic colonization events visible in intact tissues. Trained in chemistry, biochemistry, fluorescence microscopy, and computer vision, he develops instruments and software that connect subcellular molecular measurements to whole-tissue context. The lab emphasizes reproducible tools, collaborative technology dissemination, and content-rich histopathology for cancer biology, spatial biology, and biomedical imaging communities across UTSW and beyond, including collaborators worldwide.
+Kevin M. Dean will join MindSpan as Founding Head of Integrated Imaging Systems on November 1, 2026. He will lead the design, integration, validation, scaling, and deployment of imaging systems, and build and lead a multidisciplinary team spanning optical instrumentation, acquisition architecture, automation, computational imaging, and biological validation. He will retain a partial appointment as Assistant Professor at UT Southwestern Medical Center.
+
+At UT Southwestern, Dean is currently an Assistant Professor in the Lyda Hill Department of Bioinformatics and Executive Director of the Cancer Cell Imaging Core. His lab builds open-source, adaptive light-sheet microscopes, molecular multiplexing methods, and image-analysis workflows that make rare metastatic colonization events visible in intact tissues. Trained in chemistry, biochemistry, fluorescence microscopy, and computer vision, he develops instruments and software that connect subcellular molecular measurements to whole-tissue context. The lab emphasizes reproducible tools, collaborative technology dissemination, and content-rich histopathology for cancer biology, spatial biology, and biomedical imaging communities across UTSW and beyond, including collaborators worldwide.
 
 Professional positions
 ======================
 
 .. container:: profile-card
 
-   - Assistant Professor, Lyda Hill Department of Bioinformatics, UT Southwestern Medical Center.
+   - Incoming Founding Head of Integrated Imaging Systems, MindSpan. Starts November 1, 2026.
+   - Assistant Professor, Lyda Hill Department of Bioinformatics, UT Southwestern Medical Center. Continuing with a partial appointment from November 1, 2026.
    - Executive Director, Cancer Cell Imaging Core at UT Southwestern Medical Center.
    - Member, Cecil H. and Ida Green Center for Systems Biology.
    - Member, Biomedical Engineering and Molecular Biophysics Graduate Programs.
@@ -63,7 +66,7 @@ Selected tools
 - `Altair <https://thedeanlab.github.io/altair/>`__ - An open, cost-conscious light-sheet microscope platform designed for performant subcellular imaging.
 - `clearex <https://github.com/TheDeanLab/clearex>`__ - Open-source Dean Lab analysis resources for cleared-tissue imaging workflows.
 - `cyDPNI <https://github.com/TheDeanLab/CyDPNI>`__ - Python tools for analyzing subcellular polarization in fluorescence microscopy images.
-- `TheDeanLab GitHub <https://github.com/thedeanlab/>`__ and `AdvancedImagingUTSW GitHub <https://github.com/AdvancedImagingUTSW>`__ - Lab software, hardware, manuscripts, and publication-linked research resources.
+- `TheDeanLab GitHub <https://github.com/thedeanlab/>`__ and `Kevin Dean GitHub <https://github.com/kevin-m-dean>`__ - Lab software, hardware, manuscripts, and publication-linked research resources.
 
 Talks and media
 ===============
@@ -92,7 +95,7 @@ Profiles
 - `Google Scholar <https://scholar.google.com/citations?user=Uv0B5xIAAAAJ&hl=en>`__
 - `ORCID <https://orcid.org/0000-0003-0839-2320>`__
 - `TheDeanLab GitHub <https://github.com/thedeanlab/>`__
-- `AdvancedImagingUTSW GitHub <https://github.com/AdvancedImagingUTSW>`__
+- `Kevin Dean GitHub <https://github.com/kevin-m-dean>`__
 - `LinkedIn <https://www.linkedin.com/in/kevin-m-dean/>`__
 - `Bluesky <https://bsky.app/profile/kevin-dean.bsky.social>`__
 - `UT Southwestern profile <https://profiles.utsouthwestern.edu/profile/155475/kevin-dean.html>`__
@@ -109,14 +112,15 @@ Public CV
      "@context": "https://schema.org",
      "@type": "ProfilePage",
      "name": "Kevin M. Dean, Ph.D.",
-     "url": "https://www.dean-lab.org/kevin-dean.html",
-     "description": "I build open-source, adaptive light-sheet microscopes and image-analysis workflows to reveal rare metastatic colonization events in intact tissues.",
+     "url": "https://thedeanlab.github.io/kevin-dean.html",
+     "description": "Kevin M. Dean is incoming Founding Head of Integrated Imaging Systems at MindSpan, starting November 1, 2026. He will retain a partial appointment as Assistant Professor at UT Southwestern.",
      "mainEntity": {
        "@type": "Person",
        "name": "Kevin M. Dean",
        "honorificSuffix": "Ph.D.",
-       "url": "https://www.dean-lab.org/kevin-dean.html",
-       "image": "https://www.dean-lab.org/_static/kevin-dean-headshot.jpg",
+       "description": "Kevin M. Dean will join MindSpan as Founding Head of Integrated Imaging Systems on November 1, 2026, while retaining a partial appointment as Assistant Professor at UT Southwestern Medical Center.",
+       "url": "https://thedeanlab.github.io/kevin-dean.html",
+       "image": "https://thedeanlab.github.io/_static/kevin-dean-headshot.jpg",
        "email": "mailto:kevin.dean@utsouthwestern.edu",
        "jobTitle": "Assistant Professor; Executive Director, Cancer Cell Imaging Core",
        "worksFor": {
@@ -138,14 +142,13 @@ Public CV
          {
            "@type": "Organization",
            "name": "Cancer Cell Imaging Core",
-           "url": "https://www.dean-lab.org/kevin-dean.html"
+           "url": "https://thedeanlab.github.io/kevin-dean.html"
          }
        ],
        "sameAs": [
          "https://scholar.google.com/citations?user=Uv0B5xIAAAAJ&hl=en",
          "https://orcid.org/0000-0003-0839-2320",
-         "https://github.com/thedeanlab/",
-         "https://github.com/AdvancedImagingUTSW",
+         "https://github.com/kevin-m-dean",
          "https://www.linkedin.com/in/kevin-m-dean/",
          "https://bsky.app/profile/kevin-dean.bsky.social",
          "https://profiles.utsouthwestern.edu/profile/155475/kevin-dean.html"
